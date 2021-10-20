@@ -52,6 +52,7 @@ function validarCampos(evento) {
 		document.getElementById("error-ciudad").remove("error-ciudad");
 		return;
 	}
+	this.submit();
 };
 
 
